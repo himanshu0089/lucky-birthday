@@ -12,7 +12,7 @@
       <label for="date-of-birth">Date of birth:</label>
       <input type="date" id="date-of-birth"></input>
      <label for="lucky-number">Lucky Number</label>
-      <input type="number" id="lucky-number"></input>
+      <input type="number" min="0" oninput="validity.valid||(value='');" id="lucky-number"></input>
         <textarea id="output-box" disabled></textarea>
       <button id=check-it>Check it</button>
     </div>
